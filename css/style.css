@@ -1,0 +1,119 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.semi-title, .price{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* nav */
+
+.logo{
+    width: 300px;
+}
+
+.nav-link:hover{
+    background-color: #A4BC46;
+}
+
+
+/* header */
+
+.header{
+    min-height: 90vh;
+    background-color: rgb(253, 243, 229);
+    position: relative;
+}
+
+
+ .header .dot{
+    width: 20%;
+    position: absolute;
+    left: 30%;
+} 
+
+.primary-color{
+    color: #A4BC46;
+}
+
+/* buttons */
+
+.button-green{
+    color: white;
+    background: linear-gradient(180deg, #A4BC46, #718b06);  
+}
+
+.button{
+    padding: 5px 15px;
+}
+
+.button-green:hover{
+    background: linear-gradient(to bottom, #718b06, #425202);
+}
+
+/* women and men products */
+
+.woman-jacket-card,
+.man-jacket-card{
+    background: rgb(235, 235, 235);
+    padding: 10px;
+}
+
+.card-img-top{
+    height: 75%;
+}
+
+.secondary-color,
+h4{
+    color: rgb(54, 57, 88);
+}
+
+.price{
+    color: #FA804C;
+}
+
+.men{
+    margin-top: 100px;
+}
+
+/* service section */
+
+.service{
+    margin-top: 150px;
+}
+
+.service-icon{
+    width: 15%;
+}
+
+.service-item .secondary-color:hover{
+   color:#718b06;
+}
+
+/* contact */
+
+.contact{
+    margin-top: 150px;
+}
+ /* footer */
+
+ .footer{
+    background-color: rgb(253, 243, 229);
+    border-top: 1px solid rgb(252, 211, 154);
+ }
+
+ /* media query */
+
+ @media screen and (max-width:425px) {
+     p{
+        font-size: 13.5px;
+     }
+     
+ }
+
